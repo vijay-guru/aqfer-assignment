@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Task {
     static int left=0;
     static int forward=0;
+    // code to move the robot to north
     static void toNorth(int x,int y,char dir){
         if(dir=='E'){
             System.out.println("\tTurn Left:    "+x+" "+y+" "+'N');
@@ -19,6 +20,7 @@ public class Task {
             left+=3;
         }
     }
+    // code to move the robot to south
     static void toSouth(int x,int y,char dir){
         if(dir=='W'){
             System.out.println("\tTurn Left:    "+x+" "+y+" "+'S');
@@ -36,6 +38,7 @@ public class Task {
             left+=3;
         }
     }
+//     code to move the robot to east
     static void toEast(int x,int y,char dir){
         if(dir=='S'){
             System.out.println("\tTurn Left:    "+x+" "+y+" "+'E');
@@ -53,6 +56,7 @@ public class Task {
             left+=3;
         }
     }
+    //     code to move the robot to west
     static void toWest(int x,int y,char dir){
         if(dir=='N'){
             System.out.println("\tTurn Left:    "+x+" "+y+" "+'W');
@@ -70,6 +74,7 @@ public class Task {
             left+=3;
         }
     }
+    //     code to move the robot to forward
     static void moveForward(int x,int y,char dir){
         if(dir=='N'){
             y++;
@@ -91,6 +96,7 @@ public class Task {
         String input="";
         input+=sc.nextLine();
         sc.close();
+        // code for parsing the input and seperate it as coordinates and source & target directions
         String array[]=input.split(",");
         int x1=Integer.parseInt(array[0]);
         int y1=Integer.parseInt(array[1]);
