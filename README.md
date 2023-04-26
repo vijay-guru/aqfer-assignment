@@ -1,4 +1,4 @@
-# Task
+# aqfer-assignment
 
 Tools used for Build and Run :<br/>
  * Jdk 11.0.15<br/>
@@ -58,4 +58,3 @@ Source and Destination are same .<br/>
 **Sample input 4:** 2,-3,N 3,4,S<br/>
 **Sample output 4**:<br/>
 Invalid input
-# aqfer-assignment
